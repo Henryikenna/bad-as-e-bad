@@ -1,4 +1,4 @@
-# Will You Be My Valentine?
+# Bad as e bad
 
 A cinematic, scene-based Valentine's Day proposal experience built with Next.js. No scrolling, no navigation — just intentional pacing and emotional storytelling that unfolds like a short film.
 
