@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Will You Be My Valentine?
+
+A cinematic, scene-based Valentine's Day proposal experience built with Next.js. No scrolling, no navigation — just intentional pacing and emotional storytelling that unfolds like a short film.
+
+## Features
+
+- **Scene-based storytelling** — A sequence of timed scenes that build emotional momentum
+- **Typewriter effect** — Montage lines typed out character by character for added weight
+- **Starfield & film grain** — Atmospheric visual layers for a cinematic feel
+- **Ambient audio** — Background music and sound effects that respond to interactions
+- **Email notifications** — Sends an email via Resend when a response is given
+- **Fully responsive** — Works on mobile and desktop
+
+## Tech Stack
+
+- [Next.js](https://nextjs.org) 16 (App Router)
+- [React](https://react.dev) 19
+- [Framer Motion](https://motion.dev) — Animations and scene transitions
+- [Tone.js](https://tonejs.github.io) — Audio synthesis and playback
+- [Resend](https://resend.com) — Email delivery
+- [Tailwind CSS](https://tailwindcss.com) 4
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the experience.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Environment Variables
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Create a `.env.local` file with:
 
-## Learn More
+```
+RESEND_API_KEY=your_resend_api_key
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Deploy
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The easiest way to deploy is with [Vercel](https://vercel.com).
